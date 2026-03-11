@@ -1,0 +1,49 @@
+.main-title{
+    display: flex;
+    justify-content: center;
+    font-weight: bold;
+    font-size: 40px;
+}
+
+.input-boxes-container {
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+}
+
+.input-box {
+    border: none;
+    padding: 5px;
+    border-radius: 10px;
+}
+
+.get-result-button {
+    display: flex;
+    justify-content: center;
+}
+
+.get-result-button-container {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+.get-result-button {
+    border: none;
+    border-radius: 10px;
+    padding-left: 40px;
+    padding-right: 40px;
+    padding-bottom: 10px;
+    padding-top: 10px;
+    background-color: white;
+    font-weight: bold;
+    font-size: 15px;
+    cursor: pointer;
+}
+
+.result-container {
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+}
